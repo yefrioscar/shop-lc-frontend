@@ -1,5 +1,5 @@
-import NextImage from "./Image"
-import Link from "next/link"
+import NextImage from "./Image";
+import Link from "next/link";
 
 const ProductsList = ({ products }) => {
   return (
@@ -20,16 +20,16 @@ const ProductsList = ({ products }) => {
                 <h4 className="mt-1 font-semibold text-base leading-tight truncate text-gray-700">
                   {_product.title} sticker
                 </h4>
-                <div className="mt-1 text-sm text-gray-700">
+                {/* <div className="mt-1 text-sm text-gray-700">
                   {_product.description}
-                </div>
+                </div> */}
               </div>
             </a>
           </Link>
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default ProductsList
+export default ProductsList;

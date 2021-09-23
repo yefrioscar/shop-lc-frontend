@@ -1,4 +1,4 @@
-import NextImage from "./Image"
+import NextImage from "./Image";
 
 const Footer = () => {
   return (
@@ -26,7 +26,7 @@ const Footer = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
